@@ -18,7 +18,7 @@ pip install e-simulator
 
 ## Usage
 
-For a more detailed explanation of the package and its usage, please refer to the [quick-guide]().<br><br>
+For a more detailed explanation of the package and its usage, please refer to the [quick-guide](https://github.com/FatCoding3/e_simulator/blob/main/guide/quick_guide.ipynb).<br><br>
 Below is a simple example. First, we need to import the package.
 
 ```python
