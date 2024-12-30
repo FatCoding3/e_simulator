@@ -48,15 +48,15 @@ project.set_particle(
     es.Particle(
         mass = 1,
         charge = 1,
-        position = (1, 1),
-        velocity = (2, 2)
+        init_position = es.Coordinate(1, 1),
+        init_velocity = es.Coordinate(2, 2)
     )
 )
 
 # Set electromagnetic regions
-project.set_regions([
+project.set_em_regions([
     es.EMRegion( 
-        field = es.StaticEMField(electric=es.Vector(1, 0), magnetic=5),
+        em_field = es.StaticEMField(electric=es.Vector(1, 0), magnetic=5),
         geometry = es.PolygonGeometry.simple_construct(
             tuples = [(10, 10), (10, 20), (20, 20), (20, 10)]
         )
